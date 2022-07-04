@@ -9,8 +9,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+::selection {
+  @apply bg-primary text-white;
+}
+nav ul li {
+  @apply text-xl mx-1;
 }
