@@ -6,12 +6,25 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 ::selection {
   @apply bg-primary text-white;
 }
+p {
+  @apply text-xl my-2;
+}
 nav ul li {
   @apply text-xl mx-1;
+}
+button {
+  @apply !px-8 my-4 !rounded-full gap-2;
+}
+.banner {
+  background: radial-gradient(#fff, #ffd6d6);
+}
+.small-container {
+  @apply w-[1080px] mx-auto;
+}
+.title h2 {
+  @apply relative font-bold text-3xl;
 }
